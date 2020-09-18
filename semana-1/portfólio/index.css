@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Grandstander';
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #ecebf1;
+    color: #000;
+}
+
+header img {
+    width: 120px;
+    margin: 0px;
+}
+
+header .inicialNome {
+    width: 50%;
+    float: left;
+}
+
+header .menu {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.quemSouEu {
+    margin: auto;
+    max-width: 700px;
+    height: 300px;
+    line-height: 45px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.quemSouEu #tema {
+    margin: auto;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #1e2e47;
+    letter-spacing: 5px;
+}
+
+.quemSouEu #subTema {
+    color: #1e2e47;
+    font-size: 17px;
+    text-align: center;
+}
+
+.instituicoes {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #DDD;
+}
+
+.instituicoes ul {
+    font-size: 25px;
+}
+
+.instituicoes .logos {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.instituicoes .logos img {
+    width: 150px;
+    border-radius: 35px;
+}
+
+.projetos {
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: #1e2e47;
+    color: #FFF;
+}
+
+.projetos ul {
+    font-size: 25px;
+}
+
+.projetos .prints {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.projetos .prints img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+.habilidades>ul {
+    font-size: 25px;
+    padding: 25px 60px;
+}
+
+.habilidades #um .qualificacoes {
+    padding: 20px;
+    float: left;
+    width: 33%;
+    height: 300px;
+    text-align: center;
+}
+
+.habilidades #dois .qualificacoes {
+    padding: 20px;
+    float: left;
+    width: 33%;
+    height: 300px;
+    text-align: center;
+}
+
+.habilidades .qualificacoes img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+#espUm {
+    width: 230px;
+}
+
+#espDois {
+    width: 300px;
+}
+
+.formulario {
+    padding: 20px;
+}
+
+.formulario>ul {
+    font-size: 25px;
+}
+
+.formulario form {
+    padding: 30px 60px;
+}
+
+.formulario label {
+    display: block;
+    margin: 20px;
+}
+
+.formulario textarea {
+    width: 300px;
+    height: 120px;
+    resize: none;
+}
+
+input,
+textarea {
+    outline: 0;
+    border-radius: 5px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #ecebf1;
+}
+
+footer img {
+    width: 70px;
+    border-radius: 15px;
+}
+
+footer .redes {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+footer .redes div {
+    float: left;
+    padding: 20px;
+}
