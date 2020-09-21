@@ -113,6 +113,10 @@ table {
     width: 60%;
 }
 
+table img {
+    width: 100px;
+}
+
 table tr td {
     text-align: center;
     font-weight: bold;
@@ -125,6 +129,10 @@ td button {
     height: 30px;
     border-radius: 5px;
     color: black;
+}
+
+td button:active {
+    background-color: #000;
 }
 
 .container-do-search {
