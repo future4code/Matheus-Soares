@@ -113,6 +113,11 @@ table {
     width: 60%;
 }
 
+table,
+.botao-voltar {
+    margin: 30px;
+}
+
 table img {
     width: 100px;
 }
