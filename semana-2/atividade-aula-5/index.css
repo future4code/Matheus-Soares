@@ -25,10 +25,6 @@ button:focus {
     color: white;
 }
 
-img {
-    width: 18px;
-}
-
 div>p:first-child {
     display: inline;
 }
@@ -52,6 +48,7 @@ div>p:first-child {
 }
 
 .icone {
+    width: 18px;
     height: 15px;
 }
 
@@ -110,13 +107,14 @@ div:last-child {
 }
 
 table {
+    margin: auto;
     width: 60%;
     font-family: arial;
 }
 
-table,
 .botao-voltar {
-    margin: 30px;
+    margin: 60px;
+    text-align: center;
 }
 
 table img {
